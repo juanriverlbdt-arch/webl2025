@@ -1,0 +1,291 @@
+body{
+    background-color: black;
+    color: aliceblue;
+   font-family: "Pieces of Eight", serif;
+}
+
+
+
+nav{
+   color: rgb(0, 0, 0); 
+  font-size: 18px;
+  text-align: center;
+  font-family: "Pieces of Eight", serif;
+  background-color: aliceblue;
+  padding: 10px 
+  
+  
+    
+}
+
+h1{
+    text-align: center;
+    font-family: "Pieces of Eight", serif;
+}
+#actores{
+    width: 3px;
+    height: 150px;
+    background-color: aliceblue;
+}
+
+article{
+    display: flex;
+    display :-webkit-box;
+    padding-right:262px;
+    margin-right: 106px;
+    border: 355px;
+    
+}
+h2{
+    right: 40 ;
+    left: -40;
+}
+
+.ajohnny{
+   float: left;
+    padding-right: 26px;
+    margin-right: 210px;
+    border: 322px;
+    padding-left: 20px;
+}
+.djohnny{
+    padding-left: 20px;
+    
+}
+.AGeoffreyRush{
+    padding-left: 91px;
+}
+
+.BGeoffreyRush{
+    float: left;
+    padding-right: 6px;
+    margin-right: 44px;
+    border: 322px;
+    padding-left: 177px;
+}
+
+.AOrlandoBloom{
+    padding-left: 87px;
+}
+
+.BOrlandoBloom{
+    float: left;
+    padding-right: 0px;
+    margin-right: -302px;
+    border: 322px;
+    padding-left: 156px;
+}
+
+.AKeiraKnightley{
+ padding-left: 87px;
+}
+
+
+.BKeiraKnightley { 
+    float: left;
+    padding-right: 0px;
+    margin-right:  -299px;;
+    border: 322px;
+    padding-left: 156px;
+}
+
+.AJackDavenport{
+ padding-left: 87px;
+}
+
+.BJackDavenport{
+    float: left;
+    padding-right: 0px;
+    margin-right:  -299px;;
+    border: 322px;
+    padding-left: 156px;
+}
+
+.AZoeSaldaña{
+    padding-left: 87px;
+}
+
+.BZoeSaldaña{
+    float: left;
+    padding-right: 0px;
+    margin-right:  -299px;;
+    border: 322px;
+    padding-left: 164px;
+}
+
+.AJonathanPryce{
+    padding-left: 87px;
+}
+
+.BJonathanPryce{
+    float: left;
+    padding-right: 0px;
+    margin-right:  -299px;;
+    border: 322px;
+    padding-left: 156px;
+}
+
+.ADavidBailie{
+    padding-left: 87px;
+}
+
+.BDavidBailie{
+    float: left;
+    padding-right: 0px;
+    margin-right:  -299px;;
+    border: 322px;
+    padding-left: 190px;;
+}
+
+.ALeeArenbergcomoPintel{
+    padding-left: 49px;
+    
+}
+
+.BLeeArenbergcomoPintel{
+    float: left;
+    padding-right: 0px;
+    margin-right: -223px;
+    border: 321px;
+    padding-left: 120px;
+}
+
+
+.AMackenzieCrook{
+    padding-left: 49px;
+}
+
+.BMackenzieCrook{
+    float: left;
+    padding-right: 0px;
+    margin-right: -223px;
+    border: 321px;
+    padding-left: 120px;
+}
+
+
+.ATrevorGoddard{
+    padding-left: 49px;
+}
+
+.BTrevorGoddard{
+    float: left;
+    padding-right: 0px;
+    margin-right: -223px;
+    border: 321px;
+    padding-left: 120px;
+}
+
+.AIsaacCSingletonJr{
+    padding-left: 49px;
+}
+
+.BIsaacCSingletonJr{
+    float: left;
+    padding-right: 0px;
+    margin-right: -223px;
+    border: 321px;
+    padding-left: 75px;
+}
+
+
+.ABryeCooper{
+    padding-left: 49px;
+}
+
+.BBryeCooper{
+    float: left;
+    padding-right: 0px;
+    margin-right: -223px;
+    border: 321px;
+    padding-left: 120px;
+}
+
+
+.ADamianOHare{
+    padding-left: 206px;
+}
+
+.BDamianOHare{
+    float: left;
+    padding-right: 0px;
+    margin-right: -223px;
+    border: 321px;
+    padding-left: 120px;
+}
+
+.AGilesNewyAngusBarnett{
+    padding-left: 49px;
+}
+
+.BGilesNewyAngusBarnett{
+    float: left;
+    padding-right: 0px;
+    margin-right: -223px;
+    border: 321px;
+    padding-left: 120px;
+}
+
+.AMichaelBerryJr{
+    padding-left: 49px;
+}
+
+.BMichaelBerryJr{
+    float: left;
+    padding-right: 0px;
+    margin-right: -223px;
+    border: 321px;
+    padding-left: 120px;
+}
+
+.AGregEllis{
+    padding-left: 49px;
+}
+
+.BGregEllis{
+    float: left;
+    padding-right: 0px;
+    margin-right: -223px;
+    border: 321px;
+    padding-left: 120px;
+}
+
+.AVinceLozano{
+    padding-left: 49px;
+}
+
+.BVinceLozano{
+    float: left;
+    padding-right: 0px;
+    margin-right: -223px;
+    border: 321px;
+    padding-left: 120px;
+}
+
+.AMartinKlebba{
+  padding-left: 49px;
+}
+
+.BMartinKlebba{
+    float: left;
+    padding-right: 0px;
+    margin-right: -223px;
+    border: 321px;
+    padding-left: 120px;
+}
+
+.AChristopherSCapp{
+    padding-left: 49px;
+}
+
+.BChristopherSCapp{
+    float: left;
+    padding-right: 0px;
+    margin-right: -223px;
+    border: 321px;
+    padding-left: 120px;
+}
+
+div{
+    margin-bottom: 11px;
+}
