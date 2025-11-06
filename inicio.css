@@ -1,15 +1,18 @@
 body { 
   background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.582));
-  color: rgb(255, 255, 255);}
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+}
 
 h1{
     text-align: center;
     font-family: "Pieces of Eight", serif;
+    
 }
 
 nav{ 
   color: rgb(0, 0, 0); 
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
   font-family: "Pieces of Eight", serif;
   background-color: rgb(255, 255, 255);
