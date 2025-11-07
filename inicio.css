@@ -21,6 +21,13 @@ nav{
   
     
 }
+
+ul {
+    padding-left: 708px;
+}
+
+
+
 section{
  background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.521));
  color: aliceblue;
@@ -36,6 +43,10 @@ section{
   height: 1020px;
   object-fit: cover;
   z-index: -1;
+}
+
+audio{
+  margin-left: 327px;;
 }
 
 
