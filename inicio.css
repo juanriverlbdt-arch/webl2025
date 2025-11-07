@@ -28,7 +28,10 @@ ul{
     margin-left: 523px;
 }
 
-
+.gif{
+ width: 200px;
+ transition: all 0.3s ease;
+}
 
 section{
  background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.521));
