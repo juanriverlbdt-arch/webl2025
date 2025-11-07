@@ -22,6 +22,51 @@ nav{
     
 }
 
+.menu{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  list-style: none;
+  border-color: aliceblue;
+  padding: 1em;
+  margin: 0%;
+}
+
+.menu li{
+display: flex;
+align-items: center;
+}
+
+.menu a {
+  color: width;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0%;
+
+}
+
+.menu a :hover{
+  
+  background-color: aqua;
+  border-radius: 30px;
+
+} 
+
+.audio{
+  height: 30px;
+}
+
+
+.gif{
+
+  height: 40px;
+  transition: transform 0,3s ease;
+}
+
+.gif :hover{
+  transition: scale 1.2 rotate 5deg;
+}
+
 ul{
     margin-right: 620px;
     padding-right: 438p;
