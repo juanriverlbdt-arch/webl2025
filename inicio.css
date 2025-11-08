@@ -1,3 +1,9 @@
+@font-face{
+  font-family: 'piece ofo eight';
+  src: url('fons/Pieces\ of\ Eight.ttf');
+}
+
+
 body { 
   background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.582));
   color: rgb(255, 255, 255);
