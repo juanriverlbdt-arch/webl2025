@@ -8,6 +8,7 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.582));
   color: rgb(255, 255, 255);
   font-size: 21px;
+  font-family: 'Pieces of Eight' , serif ;
 }
 
 h1{
