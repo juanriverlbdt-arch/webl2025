@@ -70,7 +70,7 @@ align-items: center;
 
 .gif{
   width: 40px;
-  height: 40px;
+  height: 68px;
 
   transition: transform 0,3s ease;
 }
@@ -86,7 +86,7 @@ ul{
 }
 
 .gif{
- width: 200px;
+ width: 163px;
  transition: all 0.3s ease;
 }
 
