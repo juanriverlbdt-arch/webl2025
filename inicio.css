@@ -93,7 +93,9 @@ section{
  color: aliceblue;
  padding: 20px;
  font-family: "Pieces of Eight", serif;
-}
+  margin-right: 68px;
+  margin-left: 68px;
+ }
 
 
 .fondo{
