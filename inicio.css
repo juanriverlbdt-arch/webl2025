@@ -72,16 +72,14 @@ align-items: center;
   width: 40px;
   height: 68px;
 
-  transition: transform 0,3s ease;
+  
 }
 
-.gif :hover{
-  transition: scale 1.2 rotate 5deg;
-}
+
 
 ul{
     margin-right: 620px;
-    padding-right: 438p;
+    padding-right: 438px;
     margin-left: 523px;
 }
 
