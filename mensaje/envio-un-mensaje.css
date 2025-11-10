@@ -106,3 +106,9 @@ section{
 
   transition: transform 0,3s ease;
 }
+
+form {
+  display: flex
+  flex-direction column;
+
+}
