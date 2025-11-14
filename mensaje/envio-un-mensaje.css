@@ -75,13 +75,13 @@ align-items: center;
 
 
 section{
- background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.521));
- color: aliceblue;
- padding: 20px;
- font-family: "Pieces of Eight", serif;
-  margin-right: 68px;
-  margin-left: 68px;
- }
+background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.521));
+color: aliceblue;
+padding: 20px;
+font-family: "Pieces of Eight", serif;
+margin-right: 68px;
+margin-left: 68px;
+}
 
 
 .fondo{
