@@ -134,7 +134,7 @@ video{
 
  
  footer{
-   background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.521));
+   background: linear-gradient(rgb(0 0 0 / 53%), rgba(0, 0, 0, 0.521));;
    color: aliceblue;
    padding: 20px;
    font-family: "Pieces of Eight", serif;
