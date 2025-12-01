@@ -43,7 +43,7 @@ section{
 
 
 
-input[type="submit"] {
+.input{
     font-family: "Pieces of Eight", serif;
 
     padding-left: 20px;
