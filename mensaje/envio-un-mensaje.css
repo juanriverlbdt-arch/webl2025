@@ -179,3 +179,15 @@ align-items: center;
   border-radius: 30px;
 
 } 
+
+
+.input{
+    font-family: "Pieces of Eight", serif;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+ 
