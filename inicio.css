@@ -142,10 +142,10 @@ video{
    margin-left: 68px;
  }
 
-iframe{
+.iframe{
     max-width: 100%;
 }
 
-img {
+.img {
     max-width: 100%;
 }
