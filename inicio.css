@@ -67,6 +67,10 @@ align-items: center;
   height: 30px;
 }
 
+.imgeninicio{
+  max-width: 100%
+}
+
 
 .gif{
   width: 40px;
