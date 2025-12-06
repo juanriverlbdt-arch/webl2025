@@ -21,7 +21,7 @@ h1{
 }
 
 nav{ 
-  @media max-width: 586px {
+  
   color: rgb(0, 0, 0); 
   font-size: 24px;
   text-align: center;
@@ -30,7 +30,7 @@ nav{
   max-width: 100%;
    
     
-  }
+  
     
 }
 
