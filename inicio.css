@@ -21,13 +21,16 @@ h1{
 }
 
 nav{ 
+  @media max-width: 586px {
   color: rgb(0, 0, 0); 
   font-size: 24px;
   text-align: center;
   font-family: "Pieces of Eight", serif;
   background-color: rgb(255, 255, 255);
   max-width: 100%;
-  
+   
+    
+  }
     
 }
 
