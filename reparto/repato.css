@@ -374,5 +374,9 @@ video {
         flex-direction: column;
         align-items: center;
     }
+    
+    .djohnny {
+    flex-direction: column;
 
+}
 }
