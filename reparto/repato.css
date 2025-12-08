@@ -14,7 +14,7 @@ body {
     font-family: "Pieces of Eight", serif;
     font-style: 21px;
     overflow-x: hidden;
-    width: 2871px;
+    width: 100%;
 }
 
 
@@ -364,37 +364,63 @@ video {
 }
 
 @media (max-width: 900px) {
+
     
+    }
     .menu {
         flex-direction: column;
         align-items: center;
     }
 
-    h1 { font-size: 30px; }
-
+    h1 {
+        font-size: 30px;
+    }
+     
+     h2{
+        left: 0 !important;
+        right: 0 !important;
+     }
     
-    article, 
-    .ajohnny, 
-    .djohnny, 
-    [class^="A"], 
+    article,
+    .ajohnny,
+    .djohnny,
+    [class^="A"],
     [class^="B"] {
-        width: 100% !important;        /* Ocupar todo el ancho disponible */
-        max-width: 100vw !important;   /* No pasarse del ancho de pantalla */
-        margin: 0 !important;          /* Quitar márgenes negativos */
-        padding: 10px !important;      /* Padding normal */
-        border: none !important;       /* Quitar bordes de 300px */
-        float: none !important;        /* Quitar float para que se apilen */
+        width: 100% !important;
         
-        display: block !important;     /* Asegurar comportamiento de bloque */
-        text-align: center;            /* Centrar texto e imágenes */
-        height: auto !important;       /* Altura automática */
+        max-width: 100vw !important;
+        
+        margin: 0 !important;
+       
+        padding: 10px !important;
+        
+        border: none !important;
+        
+        float: none !important;
+        
+
+        display: block !important;
+        
+        text-align: center;
+       
+        height: auto !important;
+        
     }
 
+
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
     
+    html{
+        width: 100%;
+    }
+
     img {
         max-width: 100% !important;
         height: auto !important;
         display: block;
-        margin: 0 auto; /* Centrar la imagen */
+        margin: 0 auto;
+        /* Centrar la imagen */
     }
-}
