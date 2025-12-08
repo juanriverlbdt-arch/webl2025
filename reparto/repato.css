@@ -365,7 +365,13 @@ video {
 
 @media (max-width: 900px) {
 
-    /* 1. Menú vertical */
+    ul{
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        text-align: center;
+
+    }
     .menu {
         flex-direction: column;
         align-items: center;
