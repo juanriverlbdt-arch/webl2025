@@ -361,39 +361,31 @@ video {
     margin: 0%;
 }
 
-menu {
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 768px) {
+    /* Tu código actual del menú */
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 30px; 
+    }
+
+    /* --- NUEVO: Resetear los márgenes gigantes --- */
+    
+    /* Hacemos que los contenedores ocupen el 100% del ancho y quitamos floats */
+    article, .ajohnny, .djohnny, .BGeoffreyRush, .BOrlandoBloom, .BKeiraKnightley {
+        width: 100%;       /* Ocupar todo el ancho */
+        float: none;       /* Quitar el flotado para que se apilen uno bajo otro */
+        margin: 0;         /* Quitar márgenes negativos */
+        padding: 10px;     /* Relleno pequeño y normal */
+        border: none;      /* Quitar ese borde gigante si no lo querías */
+    }
+
+    /* Esto asegura que las imágenes o textos no se salgan */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
-
-h1 {
-    font-size: 30px;
-}
-
-/* --- NUEVO: Resetear los márgenes gigantes --- */
-
-/* Hacemos que los contenedores ocupen el 100% del ancho y quitamos floats */
-article,
-.ajohnny,
-.djohnny,
-.BGeoffreyRush,
-.BOrlandoBloom,
-.BKeiraKnightley {
-    width: 100%;
-    /* Ocupar todo el ancho */
-    float: none;
-    /* Quitar el flotado para que se apilen uno bajo otro */
-    margin: 0;
-    /* Quitar márgenes negativos */
-    padding: 10px;
-    /* Relleno pequeño y normal */
-    border: none;
-    /* Quitar ese borde gigante si no lo querías */
-}
-
-/* Esto asegura que las imágenes o textos no se salgan */
-img {
-    max-width: 100%;
-    height: auto;
-}
-
