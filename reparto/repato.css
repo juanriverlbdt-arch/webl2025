@@ -374,36 +374,48 @@ video {
     h1 {
         font-size: 30px;
     }
-
-    /* 2. LIMPIEZA TOTAL DE MÁRGENES Y BORDES GIGANTES */
-    /* Seleccionamos article, los divs de Johnny, y CUALQUIER clase que empiece con A o B */
+     
+     h2{
+        left: 0 !important;
+        right: 0 !important;
+     }
+    
     article,
     .ajohnny,
     .djohnny,
     [class^="A"],
     [class^="B"] {
         width: 100% !important;
-        /* Ocupar todo el ancho disponible */
+        
         max-width: 100vw !important;
-        /* No pasarse del ancho de pantalla */
+        
         margin: 0 !important;
-        /* Quitar márgenes negativos */
+       
         padding: 10px !important;
-        /* Padding normal */
+        
         border: none !important;
-        /* Quitar bordes de 300px */
+        
         float: none !important;
-        /* Quitar float para que se apilen */
+        
 
         display: block !important;
-        /* Asegurar comportamiento de bloque */
+        
         text-align: center;
-        /* Centrar texto e imágenes */
+       
         height: auto !important;
-        /* Altura automática */
+        
     }
 
-    /* 3. Asegurar que las imágenes no rompan el sitio */
+
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    
+    html{
+        width: 100%;
+    }
+
     img {
         max-width: 100% !important;
         height: auto !important;
