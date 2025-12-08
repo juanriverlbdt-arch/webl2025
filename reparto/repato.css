@@ -365,7 +365,7 @@ video {
     margin: 0%;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 
     .menu {
         flex-direction: column;
@@ -375,18 +375,18 @@ video {
     h1 {
         font-size: 30px;
     }
-     
+
     h2 {
         left: 0;
         right: 0;
     }
-    
+
     article,
     .ajohnny,
     .djohnny,
     [class^="A"],
     [class^="B"] {
-        width: 100% !important; 
+        width: 100% !important;
         max-width: 100vw !important;
         margin: 0 !important;
         padding: 10px !important;
@@ -401,7 +401,7 @@ video {
         overflow-x: hidden;
         width: 100%;
     }
-    
+
     html {
         width: 100%;
     }
@@ -414,10 +414,11 @@ video {
     }
 
 @media (max-width:1158px) {
-    nav{
-      width: 103%;   
-    }
-    
+        nav {
+            width: 103%;
+        }
+
 }
+
 
 }
