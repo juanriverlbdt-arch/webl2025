@@ -18,12 +18,9 @@ body {
 
 
 nav {
-    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     text-align: center;
-    font-family: "Pieces of Eight", serif;
-    background-color: rgb(255, 255, 255);
-
 }
 
 .menu {
