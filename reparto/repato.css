@@ -364,7 +364,7 @@ video {
     margin: 0%;
 }
 
-@media (max-width: 768px) { /* Abrimos la llave aquí */
+@media (max-width: 768px) { 
 
     .menu {
         flex-direction: column;
