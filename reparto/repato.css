@@ -365,12 +365,7 @@ video {
 
 @media (max-width: 900px) {
 
-    ul{
-        margin: 0 !important;
-        padding: 0 !important;
-        width: 100% !important;
-        text-align: center;
-
+    
     }
     .menu {
         flex-direction: column;
