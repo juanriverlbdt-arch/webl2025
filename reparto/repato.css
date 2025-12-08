@@ -3,30 +3,62 @@
   src: url('../fonts/Pieces of Eight.woff')format('woff');
 }
 
+*{
+    box-sizing: border-box;
+    
+}
+
 body{
     background-color: black;
     color: rgb(255, 255, 255);
    font-family: "Pieces of Eight", serif;
+   font-style: 21px;
 }
 
 
 
 nav{
   color: rgb(0, 0, 0); 
-  font-size: 24px;
+  width: 100%;
   text-align: center;
   font-family: "Pieces of Eight", serif;
   background-color: rgb(255, 255, 255);
-  padding: 10px 
- 
-  
-  
-    
+   
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    list-style: none;
+    padding: 16px;
+    margin: 0;
+}
+
+.menu li{
+    display: flex;
+    align-items: center;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.menu a :hover{
+    background-color: rgb(56, 61, 65);
+    border-radius: 30px;
 }
 
 h1{
     text-align: center;
     font-family: "Pieces of Eight", serif;
+    font-style: 40px;
+    margin: 30px;
 }
 #actores{
     width: 3px;
@@ -319,24 +351,15 @@ video{
   margin: 0%;
 }
 
-.menu li{
-display: flex;
-align-items: center;
-}
-
-.menu a {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 0%;
-  border-radius: 10px ;
+@media (max-width 768px) {
+    .menu{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
 
 }
-
-.menu a :hover{
-  
-  background-color: rgba(113, 111, 111, 0.606);
-  border-radius: 30px;
-
-} 
 
