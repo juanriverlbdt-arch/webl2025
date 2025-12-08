@@ -370,5 +370,9 @@ video {
     h1 {
         font-size: 30px;
     }
+    .ajohnny{
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
