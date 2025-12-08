@@ -363,7 +363,7 @@ video {
     margin: 0%;
 }
 
-@media (max-width: 900px) {
+@media (max- width): 900px) {
 
     
     }
@@ -424,4 +424,3 @@ video {
         margin: 0 auto;
         /* Centrar la imagen */
     }
-}
