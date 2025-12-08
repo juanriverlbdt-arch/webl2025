@@ -13,7 +13,8 @@ body {
     color: rgb(255, 255, 255);
     font-family: "Pieces of Eight", serif;
     font-style: 21px;
-    width: 100%;
+    overflow-x: hidden;
+    width: 2871px;
 }
 
 
@@ -362,79 +363,65 @@ video {
     margin: 0%;
 }
 
-@media (min-width: 901px) {
-    /* Aquí van tus estilos con márgenes grandes SOLO para pantallas grandes */
-    article {
-        display: flex;
-        padding-right: 262px;
-        margin-right: 106px;
-        border: 355px solid transparent; 
-    }
-
-    .ajohnny {
-        float: left;
-        margin-right: 210px;
-        border: 322px solid transparent;
-    }
-
-    /* Clases generales para A... y B... en escritorio */
-    [class^="B"] {
-        float: left;
-        margin-right: -299px; /* Tu margen negativo original */
-        border: 322px solid transparent;
-        padding-left: 156px;
-    }
-}
-
-/* --- ESTILOS PARA MÓVIL (LA CORRECCIÓN) --- */
 @media (max-width: 900px) {
+
     
-    /* 1. Menú Vertical */
+    }
     .menu {
         flex-direction: column;
         align-items: center;
     }
 
-    /* 2. RESET TOTAL DE MÁRGENES (La Solución Mágica) */
-    /* Seleccionamos sections, articles y todas las clases raras */
-    section, 
-    article, 
-    div,
-    [class^="c"], /* Para cjohnny */
-    [class^="b"], /* Para bjohnny */
-    [class^="a"], /* Para ajohnny */
-    [class^="A"], /* Para AGeoffreyRush */
-    [class^="B"]  /* Para BGeoffreyRush */
-    {
+    h1 {
+        font-size: 30px;
+    }
+     
+     h2{
+        left: 0 !important;
+        right: 0 !important;
+     }
+    
+    article,
+    .ajohnny,
+    .djohnny,
+    [class^="A"],
+    [class^="B"] {
         width: 100% !important;
-        margin: 0 !important;
-        padding: 10px !important;
-        border: none !important;
-        float: none !important; /* Esto hace que la imagen quede arriba y texto abajo */
-        display: flex !important;
-        flex-direction: column; /* Asegura el orden vertical */
-        align-items: center;
+        
         max-width: 100vw !important;
-        height: auto !important;
-    }
+        
+        margin: 0 !important;
+       
+        padding: 10px !important;
+        
+        border: none !important;
+        
+        float: none !important;
+        
 
-    /* 3. Ajuste de Imágenes */
-    img {
-        width: 100% !important;
-        max-width: 300px; /* Para que no sean gigantes en el cel */
-        height: auto !important;
-        margin-bottom: 20px;
-    }
-
-    /* 4. Títulos y Textos */
-    h2 {
+        display: block !important;
+        
         text-align: center;
-        color: #ffd700; /* Color dorado pirata opcional */
-        margin: 10px 0;
+       
+        height: auto !important;
+        
+    }
+
+
+    body{
+        overflow-x: hidden;
+        width: 100%;
     }
     
-    p {
-        text-align: justify;
-        padding: 0 10px;
+    html{
+        width: 100%;
+    }
+
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+        display: block;
+        margin: 0 auto;
+        /* Centrar la imagen */
     }
 }
