@@ -412,4 +412,11 @@ video {
         margin: 0 auto;
     }
 
+@media (max-width:1158px) {
+    nav{
+      width: 103%;   
+    }
+    
+}
+
 }
