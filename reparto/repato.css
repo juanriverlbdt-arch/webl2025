@@ -1,31 +1,43 @@
+/* =========================================
+   1. FUENTES Y GENERALES
+   ========================================= */
 @font-face {
     font-family: 'Pieces of Eight';
-    src: url('../fonts/Pieces of Eight.woff')format('woff');
+    src: url('../fonts/Pieces of Eight.woff') format('woff');
 }
 
 * {
     box-sizing: border-box;
-
 }
 
 body {
     background-color: black;
     color: rgb(255, 255, 255);
     font-family: "Pieces of Eight", serif;
-    font-style: 21px;
-    overflow-x: hidden; 
-    width: 100%;
+    font-size: 21px; /* Corregido */
+    margin: 0;
 }
 
+h1 {
+    text-align: center;
+    font-family: "Pieces of Eight", serif;
+    font-size: 40px; /* Corregido */
+    margin: 30px 0;
+}
 
+div {
+    margin-bottom: 11px;
+}
 
+/* =========================================
+   2. MENÚ DE NAVEGACIÓN
+   ========================================= */
 nav {
     color: rgb(0, 0, 0);
     width: 100%;
     text-align: center;
     font-family: "Pieces of Eight", serif;
     background-color: rgb(255, 255, 255);
-
 }
 
 .menu {
@@ -49,353 +61,104 @@ nav {
     font-size: 24px;
     padding: 5px 10px;
     border-radius: 10px;
+    transition: background-color 0.3s; /* Suaviza el efecto hover */
 }
 
-.menu a :hover {
+.menu a:hover {
     background-color: rgb(56, 61, 65);
+    color: white; /* Agregado para que se lea mejor al pasar el mouse */
     border-radius: 30px;
 }
 
-h1 {
-    text-align: center;
-    font-family: "Pieces of Eight", serif;
-    font-style: 40px;
-    margin: 30px 0;
-}
-
-#actores {
-    width: 3px;
-    height: 150px;
-    background-color: aliceblue;
-}
-
-article {
-    display: flex;
-    display: -webkit-box;
-    padding-right: 262px;
-    margin-right: 106px;
-    border: 355px;
-
-}
-
-h2 {
-    right: 40;
-    left: -40;
-}
-
-.ajohnny {
-    float: left;
-    padding-right: 26px;
-    margin-right: 210px;
-    border: 322px;
-    padding-left: 20px;
-}
-
-.djohnny {
-    padding-left: 20px;
-
-}
-
-.AGeoffreyRush {
-    padding-left: 91px;
-}
-
-.BGeoffreyRush {
-    float: left;
-    padding-right: 6px;
-    margin-right: 44px;
-    border: 322px;
-    padding-left: 177px;
-}
-
-.AOrlandoBloom {
-    padding-left: 87px;
-}
-
-.BOrlandoBloom {
-    float: left;
-    padding-right: 0px;
-    margin-right: -302px;
-    border: 322px;
-    padding-left: 156px;
-}
-
-.AKeiraKnightley {
-    padding-left: 87px;
-}
-
-
-.BKeiraKnightley {
-    float: left;
-    padding-right: 0px;
-    margin-right: -299px;
-    ;
-    border: 322px;
-    padding-left: 156px;
-}
-
-.AJackDavenport {
-    padding-left: 87px;
-}
-
-.BJackDavenport {
-    float: left;
-    padding-right: 0px;
-    margin-right: -299px;
-    ;
-    border: 322px;
-    padding-left: 156px;
-}
-
-.AZoeSaldaña {
-    padding-left: 87px;
-}
-
-.BZoeSaldaña {
-    float: left;
-    padding-right: 0px;
-    margin-right: -299px;
-    ;
-    border: 322px;
-    padding-left: 164px;
-}
-
-.AJonathanPryce {
-    padding-left: 87px;
-}
-
-.BJonathanPryce {
-    float: left;
-    padding-right: 0px;
-    margin-right: -299px;
-    ;
-    border: 322px;
-    padding-left: 156px;
-}
-
-.ADavidBailie {
-    padding-left: 87px;
-}
-
-.BDavidBailie {
-    float: left;
-    padding-right: 0px;
-    margin-right: -299px;
-    ;
-    border: 322px;
-    padding-left: 190px;
-    ;
-}
-
-.ALeeArenbergcomoPintel {
-    padding-left: 49px;
-
-}
-
-.BLeeArenbergcomoPintel {
-    float: left;
-    padding-right: 0px;
-    margin-right: -223px;
-    border: 321px;
-    padding-left: 120px;
-}
-
-
-.AMackenzieCrook {
-    padding-left: 49px;
-}
-
-.BMackenzieCrook {
-    float: left;
-    padding-right: 0px;
-    margin-right: -223px;
-    border: 321px;
-    padding-left: 120px;
-}
-
-
-.ATrevorGoddard {
-    padding-left: 49px;
-}
-
-.BTrevorGoddard {
-    float: left;
-    padding-right: 0px;
-    margin-right: -223px;
-    border: 321px;
-    padding-left: 120px;
-}
-
-.AIsaacCSingletonJr {
-    padding-left: 49px;
-}
-
-.BIsaacCSingletonJr {
-    float: left;
-    padding-right: 0px;
-    margin-right: -223px;
-    border: 321px;
-    padding-left: 75px;
-}
-
-
-.ABryeCooper {
-    padding-left: 49px;
-}
-
-.BBryeCooper {
-    float: left;
-    padding-right: 0px;
-    margin-right: -223px;
-    border: 321px;
-    padding-left: 120px;
-}
-
-
-.ADamianOHare {
-    padding-left: 206px;
-}
-
-.BDamianOHare {
-    float: left;
-    padding-right: 0px;
-    margin-right: -223px;
-    border: 321px;
-    padding-left: 120px;
-}
-
-.AGilesNewyAngusBarnett {
-    padding-left: 49px;
-}
-
-.BGilesNewyAngusBarnett {
-    float: left;
-    padding-right: 0px;
-    margin-right: -223px;
-    border: 321px;
-    padding-left: 120px;
-}
-
-.AMichaelBerryJr {
-    padding-left: 49px;
-}
-
-.BMichaelBerryJr {
-    float: left;
-    padding-right: 0px;
-    margin-right: -223px;
-    border: 321px;
-    padding-left: 120px;
-}
-
-.AGregEllis {
-    padding-left: 49px;
-}
-
-.BGregEllis {
-    float: left;
-    padding-right: 0px;
-    margin-right: -223px;
-    border: 321px;
-    padding-left: 120px;
-}
-
-.AVinceLozano {
-    padding-left: 49px;
-}
-
-.BVinceLozano {
-    float: left;
-    padding-right: 0px;
-    margin-right: -223px;
-    border: 321px;
-    padding-left: 120px;
-}
-
-.AMartinKlebba {
-    padding-left: 49px;
-}
-
-.BMartinKlebba {
-    float: left;
-    padding-right: 0px;
-    margin-right: -223px;
-    border: 321px;
-    padding-left: 120px;
-}
-
-.AChristopherSCapp {
-    padding-left: 49px;
-}
-
-.BChristopherSCapp {
-    float: left;
-    padding-right: 0px;
-    margin-right: -223px;
-    border: 321px;
-    padding-left: 120px;
-}
-
-div {
-    margin-bottom: 11px;
-}
-
+/* =========================================
+   3. VIDEO DE FONDO
+   ========================================= */
 video {
     position: fixed;
     top: 50%;
     left: 50%;
-    min-width: 100%;
+    min-width: 101%;
     min-height: 100%;
     width: auto;
     height: auto;
     z-index: -100;
     transform: translate(-50%, -50%);
+    object-fit: cover; /* Asegura que cubra bien sin deformar */
 }
 
-.menu {
+/* =========================================
+   4. ESTILOS DE ACTORES (NUEVO Y RESPONSIVO)
+   Reemplaza a todas las clases .ajohnny, .bgeoffrey, etc.
+   ========================================= */
+
+/* Contenedor opcional si envuelves todos los articles */
+.lista-actores {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 16px;
-    list-style: none;
-    border-color: aliceblue;
-    padding: 16px;
-    margin: 0%;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
+/* La tarjeta genérica para CADA actor */
+article {
+    display: flex; /* Pone imagen y texto lado a lado */
+    flex-direction: row; 
+    align-items: flex-start; /* Alinea arriba */
+    justify-content: center;
+    
+    /* Diseño de la tarjeta */
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente para leer mejor */
+    border: 2px solid white; /* Borde visible */
+    border-radius: 15px;
+    
+    /* Espaciado */
+    margin: 20px auto; /* Centrado vertical */
+    padding: 20px;
+    max-width: 900px; /* Ancho máximo en PC */
+    width: 90%; /* Ocupa el 90% de la pantalla en móviles */
+    gap: 30px; /* Espacio entre la foto y el texto */
+}
+
+/* Clases para las imágenes dentro del article (si usas <img> o divs con clases) */
+article img, 
+article .foto-actor {
+    width: 150px; /* Tamaño fijo de imagen */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Clases para el texto dentro del article */
+article .info-actor, 
+article div:not(.foto-actor) {
+    flex: 1; /* El texto ocupa el resto del espacio */
+    text-align: left;
+}
+
+
+/* =========================================
+   5. RESPONSIVIDAD (CELULARES)
+   ========================================= */
 @media (max-width: 768px) {
-    /* Mantenemos tu menú como estaba */
+    /* Ajustes del menú */
     .menu {
         flex-direction: column;
         align-items: center;
     }
-
-    h1 {
-        font-size: 30px; 
-    }
-
-    /* --- LA SOLUCIÓN MÁGICA --- */
-    /* El asterisco * significa "seleccionar todo". 
-       Le decimos: "en celular, que nada tenga márgenes locos ni bordes gigantes" */
     
-    div, article, section, p, [class^="A"], [class^="B"] {
-        width: 100% !important;       /* Que ocupen el ancho de la pantalla */
-        margin: 0 !important;         /* Cero márgenes externos */
-        padding: 10px !important;     /* Un poquito de espacio interno */
-        border: none !important;      /* ELIMINA los bordes de 300px */
-        float: none !important;       /* Elimina que floten a la izquierda */
-        max-width: 100vw !important;  /* Asegura que no superen el ancho de ventana */
+    h1 {
+        font-size: 30px;
     }
 
-    /* Ajuste extra para asegurar las imágenes */
-    img {
-        max-width: 100%;
-        height: auto;
+    /* Ajustes de Actores para celular */
+    article {
+        flex-direction: column; /* Pone la foto ARRIBA del texto */
+        align-items: center;
+        text-align: center;
     }
-}
 
-/* Y asegúrate de tener esto al principio de tu CSS para el body y html */
-html, body {
-    max-width: 100%;
-    overflow-x: hidden; /* Esto corta cualquier cosa que se quiera salir */
+    article .info-actor, 
+    article div:not(.foto-actor) {
+        text-align: center; /* Centra el texto en celular */
+        margin-top: 15px;
+    }
 }
