@@ -13,6 +13,8 @@ body {
     color: rgb(255, 255, 255);
     font-family: "Pieces of Eight", serif;
     font-style: 21px;
+    overflow-x: hidden; 
+    width: 100%;
 }
 
 
