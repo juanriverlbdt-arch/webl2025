@@ -413,6 +413,77 @@ video {
         margin: 0 auto;
     }
 
+@media (max-width: 1024px) {
+
+    /* 1. Menú Vertical */
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; /* Un poco menos de espacio en móvil */
+    }
+
+    h1 {
+        font-size: 30px;
+        padding-left: 0; /* Quitamos el padding extra */
+    }
+
+    h2 {
+        /* Reseteamos posiciones */
+        left: auto; 
+        right: auto;
+        position: static; /* Para que deje de flotar raro */
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    /* 2. LA SOLUCIÓN MÁGICA REFORZADA */
+    /* Seleccionamos article, section, y todas tus variantes de clases */
+    article,
+    section,
+    div,
+    .ajohnny,
+    .djohnny,
+    [class^="A"], /* Atrapa AGeoffreyRush, etc */
+    [class^="B"], /* Atrapa BGeoffreyRush, etc */
+    [class^="a"], /* Atrapa ajohnny si usas minúsculas */
+    [class^="b"]  /* Atrapa bjohnny si usas minúsculas */
+    {
+        width: 100% !important;
+        max-width: 100vw !important; /* Que no supere el ancho de pantalla */
+        margin: 0 !important;        /* Adiós márgenes negativos */
+        padding: 10px !important;    /* Padding seguro */
+        border: none !important;     /* Adiós bordes de 300px */
+        
+        /* Esto apila imagen arriba y texto abajo centrado */
+        float: none !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        height: auto !important;
+    }
+
+    /* 3. Ajustes de seguridad para el body */
+    body {
+        overflow-x: hidden; /* Corta el scroll horizontal */
+        width: 100%;
+        padding: 0;
+    }
+
+    html {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* 4. Imágenes responsive */
+    img {
+        width: 100% !important;
+        max-width: 300px; /* Limita el tamaño para que no sean gigantes */
+        height: auto !important;
+        object-fit: contain;
+        margin-bottom: 15px;
+    }
+}
+
 }
 
 
