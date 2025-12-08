@@ -41,9 +41,11 @@ nav {
 .menu a {
     color: black;
     text-decoration: none;
+    font-weight: bold;
     font-size: 24px;
     padding: 5px 10px;
     border-radius: 10px;
+    transition: background-color 0.3s;
 }
 
 .menu a :hover {
