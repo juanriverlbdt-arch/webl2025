@@ -62,6 +62,7 @@ h1 {
     font-size: 40px;
     margin: 30px 0;
     text-shadow: 2px 2px 4px #000;
+    padding-left: 53px;
     padding-left: 448px;
 }
 
@@ -419,6 +420,12 @@ video {
         }
 
 }
+<<<<<<< HEAD
+@media (max-width: 768px) {
+    
+}
+=======
 
 
 }
+>>>>>>> 29ca0fc88d141ca776522a31c7e9f9ff29a98b71
