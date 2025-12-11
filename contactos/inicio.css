@@ -1,36 +1,35 @@
-@font-face{
+@font-face {
   font-family: 'Pieces of Eight';
   src: url('../fonts/Pieces of Eight.woff')format('woff');
 }
 
-body { 
+body {
   background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.582));
-  color: rgb(255, 255, 255);}
-
-h1{
-    text-align: center;
-    font-family: "Pieces of Eight", serif;
+  color: rgb(255, 255, 255);
 }
 
-nav{ 
-  color: rgb(0, 0, 0); 
+h1 {
+  text-align: center;
+  font-family: "Pieces of Eight", serif;
+}
+
+nav {
+  color: rgb(0, 0, 0);
   font-size: 18px;
   text-align: center;
   font-family: "Pieces of Eight", serif;
   background-color: rgb(255, 255, 255);
-  padding: 10px 
- 
-  
-    
+  padding: 10px
 }
-section{
- background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.521));
- color: aliceblue;
- font-family: "Pieces of Eight", serif;
+
+section {
+  background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.521));
+  color: aliceblue;
+  font-family: "Pieces of Eight", serif;
 }
 
 
-.fondo{
+.fondo {
   position: fixed;
   top: 0;
   left: 0;
@@ -42,254 +41,80 @@ section{
 
 
 
-input{
-    font-family: "Pieces of Eight", serif;
+input {
+  font-family: "Pieces of Eight", serif;
 
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-   padding-bottom: 20px;
- }
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
- @media (max-width: 768px) {
+@media (max-width: 1170px) {
+
 
   .menu {
     flex-direction: column;
     align-items: center;
-  }
-
-  nav {
-    background-color: aliceblue;
-    color: black;
-    text-align: center;
-    width: 100%;
-  }
-
-  section {
-    margin: 10px;
-    padding: 15px;
-  }
-
-  body {
-    font-size: 18px;
+    gap: 10px;
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 30px;
+    padding-left: 0;
   }
 
-  .gif {
-    width: 80px;
-  }
+  h2 {
 
-  .image {
-    max-width: 100%;
-  }
-
-  .trailer {
-    width: 100%;
-  }
-}
-
-@media (max-width : 671px) {
-
-  .menu {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav {
-    background-color: aliceblue;
-    color: black;
+    left: auto;
+    right: auto;
+    position: static;
     text-align: center;
-    width: 100%;
+    margin: 10px 0;
   }
 
-  section {
-    margin: 10px;
-    padding: 15px;
+
+  article,
+  section,
+  div,
+  .ajohnny,
+  .djohnny,
+  [class="A"],
+  [class="B"],
+  [class="a"],
+  [class="b"] {
+    width: 100% !important;
+    max-width: 100vw !important;
+    margin: 0 !important;
+    padding: 10px !important;
+    border: none !important;
+
+
+    float: none !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    height: auto !important;
   }
+
 
   body {
-    font-size: 18px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  .gif {
-    width: 80px;
-  }
-
-  .image {
-    max-width: 100%;
-  }
-
-  .trailer {
+    overflow-x: hidden;
     width: 100%;
+    padding: 0;
+  }
+
+  html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+
+  img {
+    width: 100% !important;
+    max-width: 300px;
+    height: auto !important;
+    object-fit: contain;
+    margin-bottom: 15px;
   }
 }
-
-
-
-
-@media (max-width: 768px) {
-  .menu {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav {
-    background-color: aliceblue;
-    color: black;
-    text-align: center;
-    width: 100%;
-  }
-
-  section {
-    margin: 10px;
-    padding: 15px;
-  }
-
-  body {
-    font-size: 18px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  .gif {
-    width: 80px;
-  }
-
-  .image {
-    width: 100%;
-  }
-
-  .trailer {
-    width: 100%;
-  }
-}
-
-
-@media (max-width:676px) {
-
-  .menu {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav {
-    background-color: aliceblue;
-    color: black;
-    text-align: center;
-    width: 100%;
-  }
-
-  section {
-    margin: 10px;
-    padding: 15px;
-  }
-
-  body {
-    font-size: 18px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  .gif {
-    width: 80px;
-  }
-
-  .image {
-    max-width: 100%;
-  }
-
-  .trailer {
-    width: 100%;
-  }
-
-}
-
-@media (max-width:267px) {
-  .menu {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav {
-    background-color: aliceblue;
-    color: black;
-    text-align: center;
-    width: 100%;
-  }
-
-  section {
-    margin: 10px;
-    padding: 15px;
-  }
-
-  body {
-    font-size: 18px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  .gif {
-    width: 80px;
-  }
-
-  .image {
-    max-width: 100%;
-  }
-
-  .trailer {
-    width: 100%;
-  }
-}
-
-@media (max-width:794px) {
-  .menu {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav {
-    background-color: aliceblue;
-    color: black;
-    text-align: center;
-    width: 100%;
-  }
-
-  section {
-    margin: 10px;
-    padding: 15px;
-  }
-
-  body {
-    font-size: 18px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  .gif {
-    width: 80px;
-  }
-
-  .image {
-    max-width: 100%;
-  }
-
-  .trailer {
-    width: 100%;
-  }
-}
-    
