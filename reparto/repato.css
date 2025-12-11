@@ -369,46 +369,36 @@ video {
 
 @media (max-width: 1170px) {
 
-    /* 1. Menú Vertical */
+
     .menu {
         flex-direction: column;
         align-items: center;
-        gap: 10px; /* Un poco menos de espacio en móvil */
+        gap: 10px;
     }
 
     h1 {
         font-size: 30px;
-        padding-left: 0; /* Quitamos el padding extra */
+        padding-left: 0;
     }
 
     h2 {
-        /* Reseteamos posiciones */
-        left: auto; 
+
+        left: auto;
         right: auto;
-        position: static; /* Para que deje de flotar raro */
+        position: static;
         text-align: center;
         margin: 10px 0;
     }
 
-    /* 2. LA SOLUCIÓN MÁGICA REFORZADA */
-    /* Seleccionamos article, section, y todas tus variantes de clases */
-    article,
-    section,
-    div,
-    .ajohnny,
-    .djohnny,
-    [class^="A"], /* Atrapa AGeoffreyRush, etc */
-    [class^="B"], /* Atrapa BGeoffreyRush, etc */
-    [class^="a"], /* Atrapa ajohnny si usas minúsculas */
-    [class^="b"]  /* Atrapa bjohnny si usas minúsculas */
-    {
+
+    article,section,div,.ajohnny,.djohnny,[class ="A"],[class ="B"],[class ="a"],[class ="b"] {
         width: 100% !important;
-        max-width: 100vw !important; /* Que no supere el ancho de pantalla */
-        margin: 0 !important;        /* Adiós márgenes negativos */
-        padding: 10px !important;    /* Padding seguro */
-        border: none !important;     /* Adiós bordes de 300px */
-        
-        /* Esto apila imagen arriba y texto abajo centrado */
+        max-width: 100vw !important;
+        margin: 0 !important;
+        padding: 10px !important;
+        border: none !important;
+
+
         float: none !important;
         display: flex !important;
         flex-direction: column !important;
@@ -416,9 +406,9 @@ video {
         height: auto !important;
     }
 
-    /* 3. Ajustes de seguridad para el body */
+
     body {
-        overflow-x: hidden; /* Corta el scroll horizontal */
+        overflow-x: hidden;
         width: 100%;
         padding: 0;
     }
@@ -428,17 +418,12 @@ video {
         overflow-x: hidden;
     }
 
-    /* 4. Imágenes responsive */
+
     img {
         width: 100% !important;
-        max-width: 300px; /* Limita el tamaño para que no sean gigantes */
+        max-width: 300px;
         height: auto !important;
         object-fit: contain;
         margin-bottom: 15px;
     }
 }
-
-
-
-
-
