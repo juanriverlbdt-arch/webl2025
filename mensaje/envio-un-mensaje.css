@@ -249,4 +249,13 @@ align-items: center;
         object-fit: contain;
         margin-bottom: 15px;
     }
+
+    .mensaje1{
+    font-family: "Pieces of Eight", serif;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+   padding-bottom: 20px;
+   }
 }
