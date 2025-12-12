@@ -259,7 +259,10 @@ align-items: center;
         align-items: stretch !important; 
     }
     .mensaje1 {
-        padding: 10px; /* Reducimos padding en móvil */
+        padding: 5px;
         text-align: center;
+        margin-right: 136px;
+        margin-left: 157px;
+        font-size: 28px;
     }
 }
