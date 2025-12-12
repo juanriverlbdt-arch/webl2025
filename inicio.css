@@ -234,9 +234,15 @@ footer {
 
   img {
     width: 100% !important;
-    max-width: 300px;
+    max-width: 161px;
     height: auto !important;
     object-fit: contain;
     margin-bottom: 15px;
   }
+   
+   max-width: 132px;
+   
+
+  
+}
 }
