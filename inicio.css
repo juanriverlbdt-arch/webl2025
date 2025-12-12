@@ -246,7 +246,16 @@ footer {
     object-fit: contain;
     margin-bottom: 15px;
   }
-
+  
+  .gif {
+    width: 100% !important;
+    max-width: 161px;
+    height: auto !important;
+    object-fit: contain;
+    margin-bottom: 15px;
+    width: 124px;
+    transition: all 0.3s ease;
+}
 
   
 }
