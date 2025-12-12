@@ -252,10 +252,12 @@ align-items: center;
 
 
     form {
-    display: flex
-    flex-direction column;
-
-   }
+        display: flex !important; 
+        flex-direction: column !important; 
+        gap: 15px; 
+        width: 100%; 
+        align-items: stretch !important; 
+    }
     .mensaje1{
     font-family: "Pieces of Eight", serif;
 
