@@ -308,6 +308,15 @@ footer {
       font-size: 28px;
       
   }
+  
+  input#nombre{
 
+      padding: 5px;
+      text-align: center;
+      margin-right: 136px;
+      margin-left: 157px;
+      font-size: 28px;
+  
+   }
 
 }
