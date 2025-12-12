@@ -240,6 +240,12 @@ footer {
     margin-bottom: 15px;
   }
    
+  
+  .videoyou{
+    max-width: 100%;
+  }
+  
+
    .image{
     width: 100% !important;
     height: auto !important;
