@@ -242,7 +242,6 @@ footer {
    
    .image{
     width: 100% !important;
-    max-width: 161px;
     height: auto !important;
     object-fit: contain;
     margin-bottom: 15px;
