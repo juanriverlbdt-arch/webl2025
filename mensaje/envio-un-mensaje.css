@@ -288,28 +288,29 @@ footer {
         
     padding: 5px;
     text-align: center;
-    margin-right: 248px;
-    margin-left: 204px;
+    margin-right: 109px;
+    margin-left: 120px;
     font-size: 28px;
 
     }
   input#email {
 
-      padding: 5px;
-      text-align: center;
-      margin-right: 136px;
-      margin-left: 157px;
-      font-size: 28px;
+   padding: 5px;
+   text-align: center;
+   margin-right: 18%;
+   margin-left: 17%;
+   font-size: 28px;
         
   }
   
   input#nombre {
     
-     padding: 5px;
+      padding: 5px;
       text-align: center;
-      margin-right: 136px;
-      margin-left: 157px;
+      margin-right: 18%;
+      margin-left: 16%;
       font-size: 28px;
+    }
       
   }
   
