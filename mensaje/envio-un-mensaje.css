@@ -262,9 +262,10 @@ footer {
   form {
     display: flex !important;
     flex-direction: column !important;
-    gap: 15px;
-    width: 114%;
+    gap: 12px;
+    max-width: 148%;
     align-items: stretch !important;
+    padding-right: 57px;
   }
 
   .mensaje1 {
