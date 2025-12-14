@@ -130,6 +130,10 @@ section {
   z-index: -1;
 }
 
+audio {
+    max-width: 100%;
+}
+
 .audio {
   height: 30px;
   width: 100%;
