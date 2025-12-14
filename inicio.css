@@ -185,6 +185,11 @@ footer {
     align-items: center;
   }
 
+
+  audio {
+    max-width: 100%;
+}
+
   nav {
     background-color: aliceblue;
     color: black;
