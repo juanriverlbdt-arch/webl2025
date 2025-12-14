@@ -262,10 +262,11 @@ footer {
   form {
     display: flex !important;
     flex-direction: column !important;
-    gap: 12px;
-    max-width: 148%;
+    gap: 15px;
+    width: 84%;
+    padding: 0 20px; 
+    box-sizing: border-box; 
     align-items: stretch !important;
-    padding-right: 57px;
   }
 
   .mensaje1 {
