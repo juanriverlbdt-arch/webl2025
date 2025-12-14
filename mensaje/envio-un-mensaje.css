@@ -321,4 +321,10 @@ label {
     font-size: 18px; 
 }
 
+input[type="submit"], button {
+    margin: 0 auto !important; 
+    max-width: 200px; 
+}
+
+
 }
