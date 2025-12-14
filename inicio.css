@@ -86,6 +86,10 @@ nav {
   max-width: 100%
 }
 
+img.image {
+    max-width: 100%;
+}
+
 .videoyou {
   max-width: 100%
 }
