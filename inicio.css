@@ -135,6 +135,11 @@ section {
   width: 100%;
 }
 
+audio {
+    padding-left: 7px;
+    padding-right: 12px;
+}
+
 video {
   position: fixed;
   top: 50%;
