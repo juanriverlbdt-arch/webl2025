@@ -38,7 +38,7 @@ nav {
   font-family: "Pieces of Eight", serif;
   background-color: rgb(255, 255, 255);
   margin-left: 0px;
-  width: 100%;
+
 
 
 
@@ -100,11 +100,9 @@ nav {
 
 
 ul {
-  max-width: 800px;     
-  margin: 20px auto;    
-  padding: 20px;        
-  text-align: center;  
-  list-style: none;     
+  margin-right: 620px;
+  padding-right: 438px;
+  margin-left: 523px;
 }
 
 .gif {
@@ -113,14 +111,12 @@ ul {
 }
 
 section {
- background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.521));
+  background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.521));
   color: aliceblue;
   padding: 20px;
   font-family: "Pieces of Eight", serif;
-  margin: 20px auto; 
-  max-width: 90%; 
+  margin: 20px 68px;
   text-align: center;
-  border-radius: 10px;
 }
 
 
@@ -135,22 +131,15 @@ section {
 }
 
 .audio {
-  width: 100%;
   height: 30px;
-  padding: 0 10px;
-  margin-top: 10px;
-}
-
-audio {
-    padding-left: 7px;
-    padding-right: 12px;
+  width: 100%;
 }
 
 video {
   position: fixed;
   top: 50%;
   left: 50%;
-  min-width: 100%;
+  min-width: 101%;
   min-height: 100%;
   width: auto;
   height: auto;
@@ -232,4 +221,3 @@ footer {
 
 
 }
-
