@@ -285,47 +285,35 @@ footer {
     font-size: 28px;
   }
 
-  textarea#menjesaje {
-
-    padding: 5px;
-    text-align: center;
-    margin-right: 109px;
-    margin-left: 120px;
-    font-size: 28px;
-
+  textarea#menjesaje{
+  width: 100% !important; 
+    margin: 0 !important;   
+    margin-bottom: 10px !important; 
+    text-align: left; 
+    font-size: 18px; 
   }
 
   input#email {
-
-    padding: 5px;
-    text-align: center;
-    margin-right: 18%;
-    margin-left: 17%;
-    font-size: 28px;
-
-  }
-
-  input#nombre {
-
-    padding: 5px;
-    text-align: center;
-    margin-right: 18%;
-    margin-left: 16%;
-    font-size: 28px;
-  }
-
+  width: 100% !important; 
+    margin: 0 !important;  
+    margin-bottom: 10px !important; 
+    text-align: left; 
+    font-size: 18px; 
 }
 
-input#nombre {
-
-  padding: 5px;
-  text-align: center;
-  margin-right: 136px;
-  margin-left: 157px;
-  font-size: 28px;
-
+  input#nombre {
+  width: 100% !important; 
+    margin: 0 !important;   
+    margin-bottom: 10px !important; 
+    font-size: 18px; 
 }
 
 label {
-  margin-left: 71px;
+   width: 100% !important; 
+    margin: 0 !important;   
+    margin-bottom: 10px !important; 
+    text-align: left; 
+    font-size: 18px; 
+}
+
 }
