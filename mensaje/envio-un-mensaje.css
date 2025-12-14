@@ -107,17 +107,18 @@ section {
 
   transition: transform 0, 3s ease;
 }
- form{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 800px;
-    margin: 40px auto;
-    gap: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 40px;
-    border-radius: 15px;
-}
+
+ form {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 15px;
+    width: 84%;
+    padding: 0 20px; 
+    box-sizing: border-box; 
+    align-items: stretch !important;
+  }
+
+
 video {
   position: fixed;
   top: 50%;
