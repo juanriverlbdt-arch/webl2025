@@ -213,5 +213,12 @@ footer {
   .trailer {
     width: 100%;
   }
+  
+  audio {
+    width: 300px;
+    height: 54px;
+}
+
+
 }
 
