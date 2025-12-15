@@ -182,53 +182,40 @@ footer {
 
 
 
-@media (max-width: 1170px) {
+@media (max-width: 1024px) {
 
+    /* MENÚ: Se vuelve vertical solo en móvil */
     .menu {
-    flex-direction: column;
-    align-items: center;
-  }
+        flex-direction: column !important; /* <--- AQUÍ ESTÁ LA CLAVE */
+        align-items: center;
+        gap: 10px;
+    }
 
+    /* SECCIÓN INICIO: Se vuelve vertical solo en móvil */
+    section#inicio {
+        display: flex !important;
+        flex-direction: column !important; /* <--- AQUÍ TAMBIÉN */
+        text-align: center;
+        width: 100% !important;
+    }
 
-  audio {
-    max-width: 100%;
-}
+    /* Aseguramos que los elementos ocupen el ancho total */
+    section#inicio h2{
+      width: 100%;
+        margin-bottom: 20px;
+    }
+    section#inicio p{
+      width: 100%;
+        margin-bottom: 20px;
+    }
+    .image{
+        width: 100%;
+        margin-bottom: 20px;
+    }
 
-  nav {
-    background-color: aliceblue;
-    color: black;
-    text-align: center;
-    width: 100%;
     
-  }
-
-   .menu li {
-    display: flex;
-    align-items: center;
-}
-
-  section {
-    margin: 10px;
-    padding: 15px;
-  }
-
-  body {
-    font-size: 18px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  .gif {
-    width: 80px;
-  }
-
-  .image {
-    max-width: 100%;
-  }
-
-  .trailer {
-    width: 100%;
-  }
+    .videoyou {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
