@@ -342,6 +342,11 @@ div {
     margin-bottom: 11px;
 }
 
+
+main {
+    background-color: #000000cc;
+}
+
 video {
     position: fixed;
     top: 50%;
