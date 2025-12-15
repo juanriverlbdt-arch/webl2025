@@ -199,6 +199,8 @@ footer {
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-right: 40%;
+  margin-left: 46%;
 }
 
 @media (max-width: 1170px) {
