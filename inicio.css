@@ -199,7 +199,8 @@ footer {
         display: flex !important;
         flex-direction: column !important; /* <--- AQUÍ TAMBIÉN */
         text-align: center;
-        width: 100% !important;
+        margin-left: 9%;
+        margin-right: 9%;
     }
 
     /* Aseguramos que los elementos ocupen el ancho total */
