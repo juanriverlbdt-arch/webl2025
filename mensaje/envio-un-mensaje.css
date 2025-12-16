@@ -160,20 +160,17 @@ footer {
 
 
 h2.mensajeenviado {
+    margin-top: 200px !important;  
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
     text-align: center;
-    color: white;          /* Asegura que se vea sobre el fondo oscuro */
-    margin-top: 150px;     /* Aumenté a 150px para asegurar que baje del menú */
-    margin-bottom: 20px;
-    font-size: 40px;       /* Tamaño grande para escritorio */
-}
-
-h2.mensajeenviado + p {
-    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
-    font-size: 24px; 
-    margin-bottom: 40px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    display: block; 
 }
-
 
 
 .menu {
