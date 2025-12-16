@@ -129,11 +129,10 @@ h2 {
 
 .BKeiraKnightley {
     float: left;
-    padding-right: 0px;
-    margin-right: -299px;
-    ;
-    border: 322px;
-    padding-left: 156px;
+    padding-right:9%;
+    margin-right: 79px;
+    border: 335px;
+    padding-left: 26%;
 }
 
 .AJackDavenport {
@@ -144,7 +143,6 @@ h2 {
     float: left;
     padding-right: 0px;
     margin-right: -299px;
-    ;
     border: 322px;
     padding-left: 156px;
 }
