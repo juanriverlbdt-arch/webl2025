@@ -381,23 +381,15 @@ h2.mensajeenviado + p {
     overflow-x: hidden;
   }
 
-  p {
+  .mensajeescrito{
+    background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.521));
+    color: aliceblue;
+    padding: 20px;
+    font-family: "Pieces of Eight", serif;
+    margin: 20px 68px;
     text-align: center;
 }
-
-    h2.mensajeenviado {
-    margin-top: 140px !important; 
-    width: 90% !important; 
-    box-sizing: border-box; 
-    font-size: 24px;       
-    padding: 15px;
-    }
-
-   h2.mensajeenviado + p {
-       width: 90% !important; 
-        font-size: 18px;       
-        margin-bottom: 30px
-    }
+  }
 
   img {
     width: 100% !important;
@@ -451,28 +443,28 @@ h2.mensajeenviado + p {
     margin-bottom: 10px !important; 
     text-align: left; 
     font-size: 18px; 
-}
+  }
 
   input#nombre {
   width: 100% !important; 
     margin: 0 !important;   
     margin-bottom: 10px !important; 
     font-size: 18px; 
-}
+  }
 
-label {
+  label {
    width: 100% !important; 
     margin: 0 !important;   
     margin-bottom: 10px !important; 
     text-align: left; 
     font-size: 18px; 
-}
+   }
 
-input[type="submit"], button {
+ input[type="submit"], button {
     width: fit-content !important; 
     align-self: center !important; 
     margin-top: 10px !important;    
-}
+   }
 
 
 }
