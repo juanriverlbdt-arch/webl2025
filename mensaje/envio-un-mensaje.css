@@ -93,10 +93,6 @@ section {
 
 .fondo {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 1910px;
-  height: 1020px;
   object-fit: cover;
   z-index: -1;
 }
