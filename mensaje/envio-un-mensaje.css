@@ -92,7 +92,7 @@ section {
 
 
 .fondo {
-  position: fixed;
+  
   object-fit: cover;
   z-index: -1;
 }
