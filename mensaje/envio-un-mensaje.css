@@ -159,6 +159,10 @@ footer {
 }
 
 
+h2.mensajeenviado {
+    padding-top: 218px;
+}
+
 .menu {
   display: flex;
   flex-wrap: wrap;
