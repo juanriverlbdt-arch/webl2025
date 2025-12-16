@@ -159,6 +159,14 @@ footer {
 }
 
 
+h2.mensajeenviado {
+    text-align: center;
+    color: white;          /* Asegura que se vea sobre el fondo oscuro */
+    margin-top: 150px;     /* Aumenté a 150px para asegurar que baje del menú */
+    margin-bottom: 20px;
+    font-size: 40px;       /* Tamaño grande para escritorio */
+}
+
 h2.mensajeenviado + p {
     text-align: center;
     color: white;
