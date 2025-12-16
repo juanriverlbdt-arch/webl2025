@@ -356,7 +356,7 @@ footer {
     text-align: center;
 }
 
-h2.mensajeenviado {
+  .mensajeenviado {
     margin-top: 120px !important; 
     text-align: center;
     background-color: black;
