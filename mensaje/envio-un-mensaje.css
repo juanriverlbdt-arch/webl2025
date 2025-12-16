@@ -160,16 +160,19 @@ footer {
 
 
 h2.mensajeenviado {
-    margin-top: 200px !important;  
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
+    margin-top: 180px !important; 
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 20px !important;
+     width: fit-content;       
+    max-width: 80%;          
     text-align: center;
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
-    padding: 15px 30px;
+    padding: 20px 40px;
     border-radius: 10px;
-    display: block; 
+    font-size: 35px;          
+    display: block;
 }
 
 h2.mensajeenviado + p {
@@ -178,8 +181,10 @@ h2.mensajeenviado + p {
     font-size: 22px;
     background-color: rgba(0, 0, 0, 0.7);
     width: fit-content;
-    margin: 10px auto;
-    padding: 10px;
+    max-width: 80%;           /* Para que no toque los bordes si es muy largo */
+    margin: 0 auto 40px auto; /* Centrado */
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 
@@ -382,13 +387,16 @@ h2.mensajeenviado + p {
 
     h2.mensajeenviado {
     margin-top: 140px !important; 
-    font-size: 28px;
-    width: 90%;      
-    padding: 10px;
+    width: 90% !important; 
+    box-sizing: border-box; 
+    font-size: 24px;       
+    padding: 15px;
     }
+
    h2.mensajeenviado + p {
-    font-size: 18px; 
-    width: 90%;
+       width: 90% !important; 
+        font-size: 18px;       
+        margin-bottom: 30px
     }
 
   img {
