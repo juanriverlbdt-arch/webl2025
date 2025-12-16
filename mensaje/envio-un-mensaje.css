@@ -218,7 +218,7 @@ footer {
   }
 
   h2 {
-
+    margin-top: 120px !important;
     left: auto;
     right: auto;
     position: static;
@@ -357,8 +357,13 @@ footer {
 }
 
 h2.mensajeenviado {
+    margin-top: 120px !important; 
     text-align: center;
     background-color: black;
+    padding: 10px;
+    width: 90%;
+    margin-left: auto; 
+    margin-right: auto;
 }
 
   img {
@@ -428,8 +433,9 @@ label {
 }
 
 input[type="submit"], button {
-    margin: 0 auto !important; 
-    max-width: 200px; 
+    width: fit-content !important; 
+    align-self: center !important; 
+    margin-top: 10px !important;    
 }
 
 
