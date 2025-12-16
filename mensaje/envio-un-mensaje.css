@@ -172,6 +172,16 @@ h2.mensajeenviado {
     display: block; 
 }
 
+h2.mensajeenviado + p {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: fit-content;
+    margin: 10px auto;
+    padding: 10px;
+}
+
 
 .menu {
   display: flex;
