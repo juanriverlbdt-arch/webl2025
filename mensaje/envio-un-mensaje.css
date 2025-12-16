@@ -94,7 +94,7 @@ section {
 .fondo {
   
   object-fit: cover;
-  z-index: -1;
+  
 }
 
 .audio {
