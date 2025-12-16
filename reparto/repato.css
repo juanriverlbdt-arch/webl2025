@@ -115,12 +115,11 @@ h2 {
 }
 
 .BOrlandoBloom {
-    float: left;
-    padding-right: 31%;
-    padding-right: 399px;
-    margin-right:-413px;
-    border: 310px;
-    padding-left: 0px;
+ float: left;
+ padding-right: 22px;
+ margin-right: 12%;
+ border: 322px;
+ padding-left: 17%;
 }
 
 .AKeiraKnightley {
