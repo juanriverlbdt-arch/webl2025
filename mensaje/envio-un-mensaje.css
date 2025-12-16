@@ -3,6 +3,12 @@
   src: url('../fonts/Pieces of Eight.woff')format('woff');
 }
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.582));
