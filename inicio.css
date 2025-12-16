@@ -160,6 +160,15 @@ video {
   transform: translate(-50%, -50%);
 }
 
+.contenedor-mensaje {
+    background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.521));
+    color: aliceblue;
+    padding: 20px;
+    font-family: "Pieces of Eight", serif;
+    margin: 20px 68px;
+    text-align: center;
+}
+
 
 .trailer {
   width: 640px;
@@ -189,23 +198,23 @@ footer {
 
 @media (max-width: 1024px) {
 
-    /* MENÚ: Se vuelve vertical solo en móvil */
+    
     .menu {
-        flex-direction: column !important; /* <--- AQUÍ ESTÁ LA CLAVE */
+        flex-direction: column !important; 
         align-items: center;
         gap: 10px;
     }
 
-    /* SECCIÓN INICIO: Se vuelve vertical solo en móvil */
+   
     section#inicio {
         display: flex !important;
-        flex-direction: column !important; /* <--- AQUÍ TAMBIÉN */
+        flex-direction: column !important; 
         text-align: center;
         margin-left: 9%;
         margin-right: 9%;
     }
 
-    /* Aseguramos que los elementos ocupen el ancho total */
+    
     section#inicio h2{
       width: 100%;
         margin-bottom: 20px;
