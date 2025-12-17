@@ -194,6 +194,10 @@ footer {
   max-width: 100%;
 }
 
+ a.boton-volver {
+    color: aliceblue;
+    text-decoration: none;
+}
 
 
 @media (max-width: 1024px) {
@@ -245,5 +249,9 @@ footer {
   z-index: -100;
   transform: translate(-50%, -50%);
   }
-
+  
+  a.boton-volver {
+    color: aliceblue;
+    text-decoration: none;
+}
 }
