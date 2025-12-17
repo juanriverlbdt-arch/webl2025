@@ -452,6 +452,11 @@ h2.mensajeenviado + p {
     font-size: 18px; 
   }
 
+
+  li.link {
+    margin-left: 0%;
+   }
+
   input#email {
   width: 100% !important; 
     margin: 0 !important;  
