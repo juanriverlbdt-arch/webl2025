@@ -115,11 +115,11 @@ h2 {
 }
 
 .BOrlandoBloom {
- float: left;
- padding-right: 22px;
- margin-right: 12%;
- border: 322px;
- padding-left: 17%;
+    float: left;
+    padding-right: 22px;
+    margin-left: 0%;
+    border: 326px;
+    padding-left: 3%;
 }
 
 .AKeiraKnightley {
@@ -129,10 +129,10 @@ h2 {
 
 .BKeiraKnightley {
     float: left;
-    padding-right:9%;
-    margin-right: 79px;
+    padding-right: 0%;
+    margin-left: 0%;
     border: 335px;
-    padding-left: 26%;
+    padding-left: 7%;
 }
 
 .AJackDavenport {
@@ -142,9 +142,9 @@ h2 {
 .BJackDavenport {
     float: left;
     padding-right: 0px;
-    margin-right: -299px;
+    margin-right: 11%;
     border: 322px;
-    padding-left: 156px;
+    padding-left: 1px;
 }
 
 .AZoeSaldaña {
@@ -154,10 +154,10 @@ h2 {
 .BZoeSaldaña {
     float: left;
     padding-right: 0px;
-    margin-right: -299px;
-    ;
+    margin-right: 9%;
     border: 322px;
-    padding-left: 164px;
+    padding-left: 25px;
+
 }
 
 .AJonathanPryce {
@@ -166,11 +166,10 @@ h2 {
 
 .BJonathanPryce {
     float: left;
-    padding-right: 0px;
+    padding-right: 92%;
     margin-right: -299px;
-    ;
     border: 322px;
-    padding-left: 156px;
+    padding-left: 21px;
 }
 
 .ADavidBailie {
@@ -180,11 +179,9 @@ h2 {
 .BDavidBailie {
     float: left;
     padding-right: 0px;
-    margin-right: -299px;
-    ;
+    margin-right: 20px;
     border: 322px;
-    padding-left: 190px;
-    ;
+    padding-left: 59px;
 }
 
 .ALeeArenbergcomoPintel {
@@ -195,9 +192,9 @@ h2 {
 .BLeeArenbergcomoPintel {
     float: left;
     padding-right: 0px;
-    margin-right: -223px;
+    margin-right: -11px;
     border: 321px;
-    padding-left: 120px;
+    padding-left: 19px;
 }
 
 
@@ -208,9 +205,9 @@ h2 {
 .BMackenzieCrook {
     float: left;
     padding-right: 0px;
-    margin-right: -223px;
+    margin-right: 0px;
     border: 321px;
-    padding-left: 120px;
+    padding-left: 10px;
 }
 
 
@@ -221,9 +218,9 @@ h2 {
 .BTrevorGoddard {
     float: left;
     padding-right: 0px;
-    margin-right: -223px;
+    margin-right: 0px;
     border: 321px;
-    padding-left: 120px;
+    padding-left: 19px;
 }
 
 .AIsaacCSingletonJr {
@@ -233,9 +230,9 @@ h2 {
 .BIsaacCSingletonJr {
     float: left;
     padding-right: 0px;
-    margin-right: -223px;
+    margin-right: -28px;
     border: 321px;
-    padding-left: 75px;
+    padding-left: 0px;
 }
 
 
@@ -259,9 +256,9 @@ h2 {
 .BDamianOHare {
     float: left;
     padding-right: 0px;
-    margin-right: -223px;
+    margin-right: -78px;
     border: 321px;
-    padding-left: 120px;
+    padding-left: 0px;
 }
 
 .AGilesNewyAngusBarnett {
@@ -271,9 +268,9 @@ h2 {
 .BGilesNewyAngusBarnett {
     float: left;
     padding-right: 0px;
-    margin-right: -223px;
+    margin-right: -89px;
     border: 321px;
-    padding-left: 120px;
+    padding-left: 0px;
 }
 
 .AMichaelBerryJr {
@@ -283,9 +280,9 @@ h2 {
 .BMichaelBerryJr {
     float: left;
     padding-right: 0px;
-    margin-right: -223px;
+    margin-right: -28px;
     border: 321px;
-    padding-left: 120px;
+    padding-left: -15px;
 }
 
 .AGregEllis {
@@ -295,9 +292,9 @@ h2 {
 .BGregEllis {
     float: left;
     padding-right: 0px;
-    margin-right: -223px;
+    margin-right: -5px;
     border: 321px;
-    padding-left: 120px;
+    padding-left: 27px;
 }
 
 .AVinceLozano {
@@ -331,9 +328,9 @@ h2 {
 .BChristopherSCapp {
     float: left;
     padding-right: 0px;
-    margin-right: -223px;
+    margin-right: 0px;
     border: 321px;
-    padding-left: 120px;
+    padding-left: 0px;
 }
 
 div {
