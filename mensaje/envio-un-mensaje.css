@@ -26,6 +26,9 @@ p {
     text-align: center;
 }
 
+a {
+    color: aliceblue;
+}
 
 nav {
   color: rgb(0, 0, 0);
@@ -266,6 +269,13 @@ h2.mensajeenviado + p {
   h2.mensajeenviado {
     color: aliceblue;
   }
+
+
+
+  a {
+    color: aliceblue;
+  }
+
 
   p {
     color: aliceblue;
