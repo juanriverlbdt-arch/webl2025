@@ -498,12 +498,11 @@ h2.mensajeenviado + p {
 
 
    ul.link {
-    width: 100% !important;
+    width: 81% !important;
     margin: 0px !important;
     margin-bottom: 8px !important;
     text-align: left;
-    font-size: 19px;
-    padding-right: 20% !important;
+    font-size: 18px;
 }
 
 }
